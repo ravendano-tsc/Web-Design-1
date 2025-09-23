@@ -45,3 +45,58 @@ header .main-nav li a {
     letter-spacing: 4px;
     padding: 0px 15px;
 }
+
+/* Hero Section*/
+
+#hero {
+ width: 100%;
+ height: 700px;
+ background-image:
+ linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.4) 100%),
+ url("../img/hero-image.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+#hero .container {
+ display: flex;
+ align-items: center;
+ height: 700px;
+}
+.hero-text {
+ max-width: 470px;
+}
+
+.hero-text .hero-date {
+ font-family: 'built_titling', Helvetica, sans-serif;
+ font-size: 30px;
+ color: #FFFFFF;
+ font-weight: normal;
+}
+.hero-text .hero-title {
+ font-family: 'built_titling', Helvetica, sans-serif;
+ font-size: 120px;
+ margin: 20px 0px;
+ font-weight: normal;
+ color: #FFFFFF;
+ line-height: 1;
+}
+
+.btn-primary {
+ display: inline-block;
+ font-family: 'built_titling', Helvetica, sans-serif;
+ font-weight: 400;
+ font-size: 18px;
+ letter-spacing: 4.5px;
+ background: #BF0000;
+ color: white;
+ padding: 12px 22px;
+ border: none;
+ outline: none;
+}
